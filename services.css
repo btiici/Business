@@ -1,0 +1,309 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*html{
+    font-size: 16px;
+}
+
+/* typography */
+h1{
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2rem;
+    height: 22.8281;
+}
+
+h2{
+    font-size: 4rem;
+    color: rgb(79, 79, 79);
+    font-family: bodoni moda, serif;
+    font-weight: 500;
+    line-height: 83.2px;
+}
+
+h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-family: nunito sans, sans-serif;
+}
+
+/* layout */
+.toggle{
+    position: absolute;
+    right: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    display: none;
+}
+
+.bar{
+    background-color: black;
+    border-radius: 10px;
+    width: 100%;
+    height: 3px;
+}
+
+header{
+    padding: 40px 16px;
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #454545;
+    font-weight: 300;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav ul li:first-child{
+    text-decoration: underline;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+nav ul li{
+    list-style-type: none;
+    line-height: 2;
+    font-family: bodoni moda, serif;
+}
+
+.intro{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    background-color: rgb(246, 231, 233);
+    gap: 3rem;
+    margin-top: 11rem;
+    margin-bottom: 5rem;
+}
+
+.intro img{
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+.intro p{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.intros{
+    margin-left: 2rem;
+    width: 75%;
+}
+
+.intros h2{
+    margin-top: 7rem;
+    margin-bottom: 40px;
+}
+
+.intros button{
+    padding: 14px 36px;
+    background-color: rgb(79, 79, 79);
+    color: white;
+}
+
+.intros button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.first{
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+}
+
+.first p{
+    width: 70%;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    line-height: 27px;
+}
+
+.service{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 3rem;
+}
+
+.service p{
+    width: 80%;
+}
+
+.service div{
+    margin-bottom: 6rem;
+}
+
+.design{
+    background-color:rgb(246, 231, 233);
+    width: 100%;
+}
+
+.design h2{
+    padding-top: 8rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+
+.design p{
+    width: 70%;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    line-height: 27px;
+    margin-left: 3rem;
+    margin-bottom: 6rem;
+}
+
+.designs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 3rem;
+}
+
+.designs p{
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.designs a{
+    padding: 14px 36px;
+    background-color: rgb(79, 79, 79);
+    color: white;
+    text-decoration: none;
+}
+
+
+.designs a:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.img img{
+    width: 100%;
+    margin-bottom: 7rem;
+}
+
+.corporate{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.corporate img{
+    width: 70%;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 10rem;
+}
+
+.corporate p{
+    width: 60%;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    margin-left: 6rem;
+}
+
+.consult{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    background-color: rgb(246, 231, 233);
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.consult img{
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+.consult p{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.consults{
+    margin-left: 2rem;
+    width: 75%;
+}
+
+.consults h2{
+    margin-top: 7rem;
+    margin-bottom: 40px;
+}
+
+.consults a{
+    padding: 14px 36px;
+    background-color: rgb(79, 79, 79);
+    color: white;
+    text-decoration: none;
+}
+
+.consults button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.gallery{
+    display: flex;
+    width: 80%;
+    gap: 1rem;
+    margin: auto;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.social{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.terms{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.terms a{
+    color: #454545;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social li{
+    list-style-type: none;
+}

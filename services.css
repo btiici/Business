@@ -307,3 +307,157 @@ nav ul li{
 .social li{
     list-style-type: none;
 }
+
+@media screen and (max-width: 600px){
+    .toggle{
+        display: flex;
+    }
+    .toggle:hover{
+        cursor: pointer;
+    }
+    nav{
+        display: none;
+    }
+    .query{
+        display: flex;
+    }
+    header{
+        padding-bottom: 0;
+    }
+    .intro{
+        width: 100%;
+        margin-top: 7rem;
+        align-items: center;
+        grid-template-columns:1fr;
+        align-items: center;
+    }
+    .intro img{
+        width: 50%;
+        margin-left: 3rem;
+    }
+
+    .intro button{
+        margin-left: 1.5rem;
+    }
+    .intro button{
+        margin-left: 1.5rem;
+    }
+    
+    .intros h2{
+        font-size: 3rem;
+        margin: auto;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        width: 90%;
+    }
+    .intros p{
+        font-size: 1rem;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .first{
+        margin-left: 6rem;
+    }
+    .first h2{
+        font-size: 2.5rem;
+    }
+    .first p{
+        width: 70%;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .service{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 6rem;
+    }
+    .service div{
+        margin-bottom: 3rem;
+    }
+    .design h2{
+        font-size: 2.5rem;
+        padding-top: 3rem;
+        margin-left: 6rem;
+        margin-bottom: 0rem;
+    }
+    .design p{
+        margin-left: 6rem;
+        font-size: 1rem;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+        margin-left: 6rem;
+    }
+  .designs{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .designs div{
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .designs p{
+    margin-left: 0rem;
+  }
+  .designs div:last-child{
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+  }
+  .img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 65%;
+    gap: 1rem;
+  }
+  .img img{
+    width: 100%;
+    margin-bottom: 0rem;
+}
+.corporate{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.corporate img{
+    width: 30%;
+    margin-top: 0rem;
+    margin-left: 6.5rem;
+    margin-bottom: 3rem;
+}
+.corporate p{
+    width: 60%;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    margin-left: 6rem;
+}
+.consult{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    background-color: rgb(246, 231, 233);
+    margin-bottom: 3rem;
+}
+.consult img{
+    width: 60%;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+
+.consult p{
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+.consults{
+    margin-left: 6rem;
+    width: 75%;
+}
+
+.consults h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
